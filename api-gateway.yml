@@ -17,10 +17,6 @@ hystrix:
           strategy: THREAD
           thread:
             timeoutInMilliseconds: 60000
-
-ribbon:
-  ConnectTimeout: 2000
-  ReadTimeout: 2000
   
 server:
   port: 8081
