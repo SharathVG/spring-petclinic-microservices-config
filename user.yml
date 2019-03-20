@@ -51,7 +51,10 @@ spring:
       ddl-auto: update
 server:
   port: 9006
-
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://discovery-kb.cfapps.io/eureka/
   instance:
     preferIpAddress: true
 ribbon:
